@@ -2,7 +2,6 @@ import { useForm } from "react-hook-form"
 import { z } from "zod"
 import { zodResolver } from "@hookform/resolvers/zod"
 import "./Form.css"
-import { email } from "zod/v4-mini"
 
 const schema = z.object({
     username: z.string().min(1, "Username is required."),
