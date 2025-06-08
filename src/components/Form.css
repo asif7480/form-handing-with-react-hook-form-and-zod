@@ -16,12 +16,20 @@
 }
 
 label{
-    display: block;
+    display: inline-block;
     margin-bottom: 5px;
     color: #fff;
 }
 
-input[type='text'], input[type='email']{
+input[type='text'], input[type='email'], input[type='password']{
+    width: 350px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+select{
     width: 350px;
     padding: 10px 15px;
     border: none;
